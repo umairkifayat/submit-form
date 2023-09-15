@@ -43,9 +43,10 @@ function deletetext(index) {
 function Edittext(index) {
     p.innerHTML = " ";
     // let uservalue = prompt("enter your edit value");
-    const user = prompt("enter your edit value")
+    const user = prompt("enter your edit value");
+    const user2 = prompt("enter your password value");
     arr[index].email = user;
-    arr[index].password = user;
+    arr[index].password = user2;
 
     render()
 }
